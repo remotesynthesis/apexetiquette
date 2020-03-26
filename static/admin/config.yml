@@ -1,0 +1,41 @@
+publish_mode: editorial_workflow
+media_folder: static/images
+public_folder: /images
+backend:
+  name: github
+  branch: master
+  repo: remotesynth/apexetiquette
+  open_authoring: true
+collections:
+  - name: docs
+    label: Docs
+    folder: /content/docs
+    create: true
+    extension: md
+    slug: '{{slug}}'
+    fields:
+        - widget: string
+          name: title
+          label: Title
+          required: true
+          hint: >-
+            The title of the page that will appear in the left hand navigation
+        - widget: number
+          name: weight
+          label: Weight
+          required: false
+          hint: >-
+            The navigation order of the page.
+        - widget: boolean
+          name: bookToc
+          label: Table of Contents
+          required: false
+          hint: >-
+            If false, the right hand table of contents will not show. Defaults to true if empty.
+        - widget: boolean
+          name: bookHidden
+          label: Hidben?
+          required: false
+          hint: >-
+          If true, the page will not list on the left hand navigation
+
