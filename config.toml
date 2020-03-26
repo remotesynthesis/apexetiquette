@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Apex Etiquette"
+theme = "book"
+
+[params]
+    BookSection = 'docs'
+    BookSearch = true
