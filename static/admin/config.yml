@@ -37,5 +37,4 @@ collections:
           label: Hidben?
           required: false
           hint: >-
-          If true, the page will not list on the left hand navigation
-
+            If true, the page will not list on the left hand navigation
