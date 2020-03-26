@@ -38,3 +38,8 @@ collections:
           required: false
           hint: >-
             If true, the page will not list on the left hand navigation
+        - widget: markdown
+          name: body
+          label: Content
+          required: true
+          hint: Page content
