@@ -1,7 +1,5 @@
 ---
 title: Introduction
-type: docs
-weight: 1
 ---
 
 # How to Be a Good Teammate on Apex Legends
