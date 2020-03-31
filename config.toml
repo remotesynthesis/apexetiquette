@@ -1,8 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "https://apexetiquette.netlify.com/"
 languageCode = "en-us"
 title = "Apex Etiquette"
 theme = "book"
 
 [params]
-    BookSection = 'docs'
     BookSearch = true
