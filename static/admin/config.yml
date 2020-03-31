@@ -52,7 +52,7 @@ collections:
             If false, the right hand table of contents will not show. Defaults to true if empty.
         - widget: boolean
           name: bookHidden
-          label: Hidben?
+          label: Hidden?
           required: false
           hint: >-
             If true, the page will not list on the left hand navigation
